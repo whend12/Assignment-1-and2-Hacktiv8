@@ -24,12 +24,11 @@
         <div class="personal">
           <h1 id="nama">Wendy Gardiel</h1>
           <p id="role">Frontend Designer</p>
-          <a id="kontakButton" type="button" class="kontak" href="#">
-            Kontak
-          </a>
+          <a id="editButton" type="button" class="edit" href="#"> Edit </a>
+
           <a type="button" class="resume" href>Resume</a>
         </div>
-        <div class="first">
+        <div>
           <p class="v1"></p>
           <h5>Avaibility</h5>
           <h5>Usia</h5>
@@ -45,7 +44,7 @@
           <p id="email">Wendygardiel@gmail.com</p>
         </div>
       </header>
-      <form class="form" id="form"">
+      <form class="form" id="form" onsubmit="return Portofolio();">
         <label for="inputnama">Nama</label>
         <input type="text" name="nama" id="inputnama" placeholder="Nama Anda" />
 
@@ -62,7 +61,7 @@
         />
 
         <label for="inputusia">Age</label>
-        <input type="number" name="age" id="inputusia" placeholder="Age Anda" />
+        <input type="text" name="age" id="inputusia" placeholder="Age Anda" />
 
         <label for="inputlokasi">Lokasi</label>
         <input
@@ -74,7 +73,7 @@
 
         <label for="inputyearsexperience">Years Experience</label>
         <input
-          type="number"
+          type="text"
           name="yearsexperience"
           id="inputyearsexperience"
           placeholder="Experience Anda"
@@ -91,5 +90,7 @@
         <button class="" type="submit" value="Submit">Submit</button>
       </form>
     </section>
+
+    <script src="Assginment2.js"></script>
   </body>
 </html>
